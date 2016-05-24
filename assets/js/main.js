@@ -47,7 +47,7 @@
 			if (skel.vars.IEVersion < 9)
 				$(':last-child').addClass('last-child');
 
-		// Dropdowns.
+		/*// Dropdowns.
 			$('#nav > ul').dropotron({
 				mode: 'fade',
 				noOpenerFade: true,
@@ -61,7 +61,7 @@
 				$(
 					'<div id="titleBar">' +
 						'<a href="#navPanel" class="toggle"></a>' +
-						'<span class="title">' + $('#logo').html() + '</span>' +
+						'<span class="title">Tilos Maraton</span>' +
 					'</div>'
 				)
 					.appendTo($body);
@@ -89,7 +89,7 @@
 			// Fix: Remove navPanel transitions on WP<10 (poor/buggy performance).
 				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
 					$('#titleBar, #navPanel, #page-wrapper')
-						.css('transition', 'none');
+						.css('transition', 'none');*/
 
 	});
 

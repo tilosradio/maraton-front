@@ -440,7 +440,7 @@
 		}
 
 		.row.\32 00\25 > * {
-			padding: 100px 0 0 100px;
+			padding: 50px 0 0 100px;
 		}
 
 		.row.\32 00\25 {
@@ -1613,6 +1613,8 @@
 
 	.box.highlight {
 		text-align: center;
+		font-size: 1.2em;
+
 	}
 
 /* Icons */
@@ -1639,10 +1641,10 @@
 
 	#banner-wrapper {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("../../images/banner.jpg");
 		background-position: top left, top left, center center;
 		background-repeat: repeat, repeat, no-repeat;
-		background-size: auto, auto, cover;
+#		background-size: auto, auto, cover;
 		z-index: 1;
 	}
 
@@ -1650,6 +1652,7 @@
 		background: #fff;
 		border-top: solid 5px #b1ddab;
 		border-bottom: solid 5px #c1cac5;
+		margin-top: -12px;
 	}
 
 /* Banner */
